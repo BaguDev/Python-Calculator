@@ -20,7 +20,7 @@ t = threading.Thread(target=animate)
 t.start()
 
 #long process here
-time.sleep(10)
+time.sleep(3)
 done = True
 
  def is_float(var):
