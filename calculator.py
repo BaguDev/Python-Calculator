@@ -1,4 +1,4 @@
- print('Python Calculator | By BaguDev')
+print('Python Calculator | By Crevis')
 import itertools
 import threading
 import time
@@ -23,7 +23,7 @@ t.start()
 time.sleep(3)
 done = True
 
- def is_float(var):
+def is_float(var):
     try:
         float(var)
         return True
@@ -56,5 +56,12 @@ elif to_do == "D":
     total = varA - varB
 else:
     print(to_do)
+print('Loading answer')
+time.sleep(1)
+print('.')
+time.sleep(1)
+print('..')
+time.sleep(1)
+print('...')
 print(total)
 print('Thanks for using Python Calculator!')
